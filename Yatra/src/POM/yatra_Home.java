@@ -18,7 +18,7 @@ public yatra_Home(WebDriver driver)
 	this.driver=driver;
 	PageFactory.initElements(driver, this);
 }
-
+//Adding Page Elements
 @FindBy(xpath=".//*[@id='BE_flight_origin_city']")
 WebElement origin;
 
